@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-visual1{
+  background-image: url(img/box1.jpg);
+  background-size: cover;
+  background-position: center;
+  font-size: 200px;
+}
+
+.main-visual2{
+  background-image: url(img/box2.jpg);
+  background-size: cover;
+  background-position: center;
+  font-size: 200px;
+}
+
+.main-visual3{
+  background-image: url(img/box3.jpg);
+  background-size: cover;
+  background-position: center;
+  font-size: 200px;
+}
+
+.main-visual4{
+  background-image: url(img/box4.jpg);
+  background-size: cover;
+  background-position: center;
+  font-size: 200px;
+}
+
+/* 最初画像が表示されなかったため、文字をhtmlいれないといけないのかな？と思ってスペースで代用した。 */
+/* 正解としては文字は不要だが、画像の高さを入れてなかったため表示されていなかった。 */
+/* なので、CSSで　height: 200px;　を入力したらよかった。 */
+
+
+/* 以下解答よりコピペ */
+/* .box1 { */
+  /* height: 200px; */
+  /* background-image: url(img/box1.jpg); */
+  /* background-size: cover; */
+  /* background-position: center; */
+/* } */
